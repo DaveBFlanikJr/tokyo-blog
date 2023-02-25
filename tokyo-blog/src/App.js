@@ -7,10 +7,10 @@ import Login from './pages/Login';
 function App() {
   return (
     <Router>
-      <nav>
+      <nav className='hero-nav'>
         <Link to={'/'}>Home</Link>
-        <Link to={'/login'}>Login</Link>
         <Link to={'/createpost'}>Create Post</Link>
+        <Link to={'/login'}>Login</Link>
       </nav>
         <Routes>
           <Route path='/' element={<Home />} />
