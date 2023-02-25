@@ -10,8 +10,8 @@ body {
 
 .hero-nav {
   margin: 0;
+  padding: 1em;
   width: 100%;
-  height: 80px;
   background-color: black;
   display: flex;
   justify-content: center;
